@@ -4,7 +4,6 @@ alias mkdir="mkdir -p"
 alias e="$EDITOR"
 alias v="$VISUAL"
 
-
 alias psa="ps aux"
 
 # homebrew - Mac
@@ -29,7 +28,6 @@ alias rsl='defaults write com.apple.dock ResetLaunchPad -bool true && killall Do
 alias ls='exa'
 alias nvmup="nvm install --lts --latest-npm --reinstall-packages-from='lts/*'"
 
-
 #flushdns
 alias flushdns='sudo killall -HUP mDNSResponder'
 
@@ -45,4 +43,3 @@ alias xr='sudo xbps-remove'
 alias xrr='sudo xbps-remove -R'
 alias xq='sudo xbps-query'
 alias xqrs='sudo xbps-query -Rs'
-
