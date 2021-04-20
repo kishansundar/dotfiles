@@ -1,0 +1,95 @@
+
+add_newline = false
+
+[line_break]
+disabled = false
+
+[hostname]
+style = "fg:202"
+ssh_only = false
+format =  "♥ [$hostname]($style) "
+
+[username]
+disabled = false
+show_always = true
+style_user = "fg:197"
+format = "[$user]($style) "
+
+[character]                         
+success_symbol = "[»](bold fg:92)"
+error_symbol = "[✘](bold red)"
+vicmd_symbol = "[V](bold green) "
+
+
+[aws]
+symbol = "  "
+
+[conda]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[directory]
+truncation_length = 8
+truncation_symbol = "…/"
+truncate_to_repo = false
+read_only = " "
+
+
+[docker_context]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[git_branch]
+symbol = " "
+
+[golang]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[memory_usage]
+symbol = " "
+
+[nim]
+symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[package]
+symbol = " "
+
+[perl]
+symbol = " "
+
+[php]
+symbol = " "
+
+[python]
+symbol = " "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[scala]
+symbol = " "
+
+[swift]
+symbol = "ﯣ "

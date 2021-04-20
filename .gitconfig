@@ -1,0 +1,8 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Kishan
+	email = k@kishan.sh
+[core]
+	excludesfile = /Users/kishan/.gitignore_global
+[commit]
+	template = /Users/kishan/.stCommitMsg

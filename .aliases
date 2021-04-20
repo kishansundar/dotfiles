@@ -1,0 +1,48 @@
+# Unix
+alias ln="ln -v"
+alias mkdir="mkdir -p"
+alias e="$EDITOR"
+alias v="$VISUAL"
+
+
+alias psa="ps aux"
+
+# homebrew - Mac
+alias bru="brew update && brew upgrade && brew cleanup && brew doctor"
+alias bcu="brew cu"
+
+# vim mimic
+alias :q="exit"
+alias :qq="rm -Rfr ~/.zsh_history && :q"
+
+# vimrc editing
+alias ve='vim ~/.vimrc'
+
+# zsh profile editing
+alias ze='vim ~/.zshrc'
+
+# zsh shell reset
+alias sz='source ~/.zshrc'
+
+# shortcuts
+alias rsl='defaults write com.apple.dock ResetLaunchPad -bool true && killall Dock'
+alias ls='exa'
+alias nvmup="nvm install --lts --latest-npm --reinstall-packages-from='lts/*'"
+
+
+#flushdns
+alias flushdns='sudo killall -HUP mDNSResponder'
+
+#archLinux
+alias pkgclr='yay -Sc'
+alias orphan='yay -Rnsc $(trizen -Qqddtt)'
+alias mirrorsup='sudo reflector --verbose --country Netherlands --country France --country Germany --country India --country US --age 12 --latest 10 --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
+
+##VoidLinux
+alias xs='sudo xbps-install -S'
+alias xsu='sudo xbps-install -Su'
+alias xr='sudo xbps-remove'
+alias xrr='sudo xbps-remove -R'
+alias xq='sudo xbps-query'
+alias xqrs='sudo xbps-query -Rs'
+
