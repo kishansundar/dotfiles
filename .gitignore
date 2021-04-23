@@ -11,6 +11,7 @@
 .rustup/
 .ssh/
 .vscode/
+.z
 .zsh_history
 Applications/
 Desktop/

@@ -8,6 +8,8 @@ export HAXE_STD_PATH="/usr/local/lib/haxe/std"
 
 [[ -s ~/.aliases ]] && source ~/.aliases
 source $HOME/.cargo/env
+export _Z_CMD=zd
+. $HOME/.config/z.sh
 
 eval "$(starship init zsh)"
 
