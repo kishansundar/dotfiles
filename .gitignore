@@ -15,6 +15,9 @@
 .vscode/
 .z
 .zsh_history
+.mono/
+.nuget/
+.vsts/
 Applications/
 Desktop/
 Developer/
