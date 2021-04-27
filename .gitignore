@@ -3,6 +3,7 @@
 .cargo/
 .config/iterm2
 .config/qBittorrent/
+.config/Unreal\ Engine/
 .cups/
 .dotfiles/
 .haxelib
@@ -10,6 +11,7 @@
 .nvm/
 .rustup/
 .ssh/
+.viminfo
 .vscode/
 .z
 .zsh_history
