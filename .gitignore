@@ -6,7 +6,9 @@
 .config/Unreal\ Engine/
 .cups/
 .dotfiles/
+.filebot/
 .haxelib
+.local/
 .npm/
 .nvm/
 .rustup/
