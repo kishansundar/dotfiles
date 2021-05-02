@@ -7,7 +7,7 @@ disabled = false
 [hostname]
 style = "fg:202"
 ssh_only = false
-format =  "♥ [$hostname]($style) "
+format = "💎 [$hostname]($style) "
 
 [username]
 disabled = false
@@ -15,8 +15,8 @@ show_always = true
 style_user = "fg:197"
 format = "[$user]($style) "
 
-[character]                         
-success_symbol = "[»](bold fg:92)"
+[character]
+success_symbol = "[▶](bold fg:92)"
 error_symbol = "[✘](bold red)"
 vicmd_symbol = "[V](bold green) "
 

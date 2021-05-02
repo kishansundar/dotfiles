@@ -20,6 +20,7 @@
 .mono/
 .nuget/
 .vsts/
+.Trash/
 Applications/
 Desktop/
 Developer/
