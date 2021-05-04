@@ -17,26 +17,26 @@ window:
   # Window dimensions in character columns and lines
   # (changes require restart)
   dimensions:
-    columns: 90
-    lines: 24
+    columns: 113
+    lines: 27
 
   # Window position (changes require restart)
   #
   # Specified in number of pixels.
   # If the position is not set, the window manager will handle the placement.
-  #position:
-  #  x: 0
-  #  y: 0
+  position:
+    x: 6
+    y: 29
 
   # Adds this many blank pixels of padding around the window
   # Units are physical pixels; this is not DPI aware.
   # (change requires restart)
   padding:
-    x: 2
-    y: 2
+    x: 4
+    y: 4
 
   # Spread additional padding evenly around the terminal content.
-  dynamic_padding: false
+  dynamic_padding: true
 
   # Values for `decorations`:
   #- full: Borders and title bar
@@ -81,13 +81,13 @@ font:
   normal:
     family: 'VictorMono Nerd Font Mono'
     # Style can be specified to pick a specific face.
-    style: Italic
+    style: ExtraLight
 
   # The bold font face
   bold:
     family: 'VictorMono Nerd Font Mono'
     # Style can be specified to pick a specific face.
-    style: Italic
+    style: Regular
 
   # The italic font face
   italic:
@@ -184,7 +184,7 @@ bell:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.9
+background_opacity: 0.8
 
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
@@ -288,15 +288,20 @@ mouse:
     # on them. The available modifiers are documented in the key binding section.
     modifiers: None
 
-# Shell
-#
-# You can set shell.program to the path of your favorite shell, e.g. /bin/fish.
-# Entries in shell.args are passed unmodified as arguments to the shell.
-#
-# shell:
-#   program: /bin/bash
-#   args:
-#     - --login
+  # Shell
+  #
+  # You can set shell.program to the path of your favorite shell, e.g. /bin/fish.
+  # Entries in shell.args are passed unmodified as arguments to the shell.
+  #
+  # shell:
+  #   program: /bin/bash
+  #   args:
+  #     - --login
+
+  shell:
+    program: /usr/local/bin/zsh
+    args:
+      - --login
 
 # Key bindings
 #
