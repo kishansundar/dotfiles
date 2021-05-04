@@ -70,7 +70,7 @@ scrolling:
   faux_multiplier: 3
 
   # Scroll to the bottom when new text is written to the terminal.
-  auto_scroll: false
+  auto_scroll: true
 
 # Display tabs using this many cells (changes require restart)
 tabspaces: 8
@@ -96,7 +96,7 @@ font:
     style: Italic
 
   # Point size of the font
-  size: 22.0
+  size: 20.0
 
   # Offset is the extra space around each character. offset.y can be thought of
   # as modifying the linespacing, and offset.x as modifying the letter spacing.
