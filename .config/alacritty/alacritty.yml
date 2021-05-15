@@ -17,7 +17,7 @@ window:
   # Window dimensions in character columns and lines
   # (changes require restart)
   dimensions:
-    columns: 91
+    columns: 79
     lines: 24
 
   # Window position (changes require restart)
@@ -79,19 +79,19 @@ tabspaces: 8
 font:
   # The normal (roman) font face to use.
   normal:
-    family: 'VictorMono Nerd Font Mono'
-    # Style can be specified to pick a specific face.
-    style: ExtraLight
-
-  # The bold font face
-  bold:
-    family: 'VictorMono Nerd Font Mono'
+    family: 'JetBrainsMono Nerd Font Mono'
     # Style can be specified to pick a specific face.
     style: Regular
 
+  # The bold font face
+  bold:
+    family: 'JetBrainsMono Nerd Font Mono'
+    # Style can be specified to pick a specific face.
+    style: medium
+
   # The italic font face
   italic:
-    family: 'VictorMono Nerd Font Mono'
+    family: 'JetBrainsMono Nerd Font Mono'
     # Style can be specified to pick a specific face.
     style: Italic
 
@@ -118,35 +118,33 @@ font:
 
 # When true, bold text is drawn using the bright variant of colors.
 draw_bold_text_with_bright_colors: true
-
-# Colors (Snazzy)
 colors:
   # Default colors
   primary:
-    background: '#282a36'
-    foreground: '#eff0eb'
+    background: '0x1b182c'
+    foreground: '0xcbe3e7'
 
   # Normal colors
   normal:
-    black: '#282a36'
-    red: '#ff5c57'
-    green: '#5af78e'
-    yellow: '#f3f99d'
-    blue: '#57c7ff'
-    magenta: '#ff6ac1'
-    cyan: '#9aedfe'
-    white: '#f1f1f0'
+    black: '0x100e23'
+    red: '0xff8080'
+    green: '0x95ffa4'
+    yellow: '0xffe9aa'
+    blue: '0x91ddff'
+    magenta: '0xc991e1'
+    cyan: '0xaaffe4'
+    white: '0xcbe3e7'
 
   # Bright colors
   bright:
-    black: '#686868'
-    red: '#ff5c57'
-    green: '#5af78e'
-    yellow: '#f3f99d'
-    blue: '#57c7ff'
-    magenta: '#ff6ac1'
-    cyan: '#9aedfe'
-    white: '#f1f1f0'
+    black: '0x565575'
+    red: '0xff5458'
+    green: '0x62d196'
+    yellow: '0xffb378'
+    blue: '0x65b2ff'
+    magenta: '0x906cff'
+    cyan: '0x63f2f1'
+    white: '0xa6b3cc'
 
 # Visual Bell
 #

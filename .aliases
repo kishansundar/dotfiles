@@ -3,7 +3,7 @@ alias ln="ln -v"
 alias mkdir="mkdir -p"
 
 # homebrew - Mac
-alias bru="brew update && brew upgrade && brew cleanup && brew doctor"
+alias bru="brew update && brew upgrade && brew autoremove && brew cleanup && brew doctor"
 alias bcu="brew cu"
 
 # vim mimic
@@ -11,7 +11,7 @@ alias :q="exit"
 alias :qq="rm -Rfr ~/.zsh_history && :q"
 
 # zsh profile editing
-alias ze='vim ~/.zshrc'
+alias ze='code ~/.zshrc'
 
 # zsh shell reset
 alias sz='source ~/.zshrc'
@@ -23,4 +23,3 @@ alias nvmup="nvm install --lts --latest-npm --reinstall-packages-from='lts/*'"
 
 #flushdns
 alias flushdns='sudo killall -HUP mDNSResponder'
-
