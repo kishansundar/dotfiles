@@ -21,6 +21,10 @@
 .nuget/
 .vsts/
 .Trash/
+.bash_history
+.bash_logout
+.bashrc
+.profile
 Applications/
 Desktop/
 Developer/
