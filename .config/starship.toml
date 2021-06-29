@@ -6,12 +6,12 @@ disabled = false
 
 [hostname]
 style = "fg:202"
-ssh_only = false
-format = "❤ [$hostname]($style) "
+ssh_only = true
+format = "︲[$hostname]($style) "
 
 [username]
 disabled = false
-show_always = true
+show_always = false
 style_user = "fg:197"
 format = "[$user]($style) "
 
@@ -31,8 +31,8 @@ symbol = " "
 symbol = " "
 
 [directory]
-truncation_length = 8
-truncation_symbol = "…/"
+truncation_length = 3
+truncation_symbol = ".../"
 truncate_to_repo = false
 read_only = " "
 

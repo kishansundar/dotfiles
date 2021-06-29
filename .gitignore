@@ -25,6 +25,8 @@
 .bash_logout
 .bashrc
 .profile
+.vscode-server/
+.wget-hsts
 Applications/
 Desktop/
 Developer/
