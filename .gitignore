@@ -21,6 +21,7 @@
 .nuget/
 .vsts/
 .Trash/
+.subversion/
 Applications/
 Desktop/
 Developer/
