@@ -21,6 +21,12 @@
 .nuget/
 .vsts/
 .Trash/
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.vscode-server/
+.wget-hsts
 .subversion/
 Applications/
 Desktop/
