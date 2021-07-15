@@ -27,6 +27,7 @@
 .profile
 .vscode-server/
 .wget-hsts
+.subversion/
 Applications/
 Desktop/
 Developer/
