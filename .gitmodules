@@ -7,6 +7,6 @@
 [submodule ".zsh/zsh-history-substring-search"]
 	path = .zsh/zsh-history-substring-search
 	url = https://github.com/zsh-users/zsh-history-substring-search.git
-[submodule ".config/.zsh/z"]
-	path = .config/.zsh/z
+[submodule ".zsh/.zsh/z"]
+	path = .zsh/.zsh/z
 	url = https://github.com/rupa/z.git
