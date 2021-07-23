@@ -12,6 +12,9 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
 
+fpath=(~/.zsh/zsh-completions/src $fpath)
+rm -f ~/.zcompdump; compinit
+
 [[ -s ~/.aliases ]] && source ~/.aliases
 
 
