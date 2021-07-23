@@ -16,3 +16,6 @@
 [submodule ".zsh/zsh-completions"]
 	path = .zsh/zsh-completions
 	url = https://github.com/zsh-users/zsh-completions.git
+[submodule ".nvm"]
+	path = .nvm
+	url = https://github.com/nvm-sh/nvm.git
