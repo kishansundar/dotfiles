@@ -57,6 +57,8 @@ Tresors/
 .config/touchegg/
 .config/user-dirs.dirs
 .config/user-dirs.locale
+.config/enchant/
+.config/google-chrome/
 .mozilla/
 .pki/
 .sudo_as_admin_successful
