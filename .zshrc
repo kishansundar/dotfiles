@@ -1,5 +1,7 @@
 eval "$(starship init zsh)"
 
+
+
 #path
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/bin:$PATH"
@@ -14,9 +16,17 @@ export PATH="/usr/local/bin:$PATH"
 fpath=(~/.zsh/zsh-completions/src $fpath)
 rm -f ~/.zcompdump; compinit
 
+
+
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
+
+export HISTFILE=~/.zsh_history
+export HISTFILESIZE=1000000000
+export HISTSIZE=1000000000
+setopt INC_APPEND_HISTORY
+export HISTTIMEFORMAT="[%F %T] "
 
 [[ -s ~/.aliases ]] && source ~/.aliases
 
