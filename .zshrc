@@ -20,7 +20,7 @@ source ~/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 #z
 # export _Z_CMD=zd
-. $HOME/.config/z.sh
+. $HOME/.zsh/z/z.sh
 
 #nvm
 export NVM_DIR="$HOME/.nvm"
