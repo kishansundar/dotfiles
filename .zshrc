@@ -22,11 +22,12 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
 
-export HISTFILE=~/.zsh_history
-export HISTFILESIZE=1000000000
-export HISTSIZE=1000000000
+
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
 setopt INC_APPEND_HISTORY
-export HISTTIMEFORMAT="[%F %T] "
+
 
 [[ -s ~/.aliases ]] && source ~/.aliases
 
