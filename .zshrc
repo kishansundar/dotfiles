@@ -10,13 +10,9 @@ export PATH="/usr/local/bin:$PATH"
 [[ -s $HOME/.cargo/env ]] && source $HOME/.cargo/env
 
 #zsh
-[[ -s /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]] && source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-[[ -s /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]] && source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 fpath=(~/.zsh/zsh-completions/src $fpath)
 rm -f ~/.zcompdump; compinit
-
-
 
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -30,8 +26,6 @@ setopt INC_APPEND_HISTORY
 
 
 [[ -s ~/.aliases ]] && source ~/.aliases
-
-
 
 #z
 . $HOME/.zsh/z/z.sh
