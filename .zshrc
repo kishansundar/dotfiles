@@ -12,7 +12,9 @@ export PATH="/usr/local/bin:$PATH"
 #zsh
 
 fpath=(~/.zsh/zsh-completions/src $fpath)
-rm -f ~/.zcompdump; compinit
+rm -f ~/.zcompdump; 
+autoload -Uz compinit
+compinit
 
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
