@@ -9,7 +9,8 @@ kill $(pgrep polybar)
 kill $(pgrep sxhkd)
 kill $(pgrep dunst)
 kill $(pgrep autocutsel)
-## kill $(pgrep polkit-gnome-authentication-agent-1)
+kill $(pgrep polkit-agent-helper-1)
+kill $(pgrep polkitd)
 kill $(pgrep xrandr)
 
 
@@ -18,11 +19,12 @@ if [ -x /home/kishan/.config/bspwm/xrand.sh ];then
 fi
 
 sxhkd &
-dunst &S
+dunst &
 numlockx &
 picom --config /home/kishan/.config/picom/picom.conf -b &
 
-# /usr/libexec/polkit-gnome-authentication-agent-1  &
+/usr/libexec/polkit-agent-helper-1  &
+/usr/libexec/polkitd  &
 
 autocutsel -s PRIMARY -fork &
 
@@ -73,10 +75,10 @@ bspc config focus_follows_pointer   true
 
 bspc config border_radius       50
 bspc config border_width         1
-bspc config window_gap          10
+bspc config window_gap          15
 
 bspc config bottom_padding       0
-bspc config top_padding         15
+bspc config top_padding          0
 
 bspc config split_ratio         0.50
 bspc config borderless_monocle            false
