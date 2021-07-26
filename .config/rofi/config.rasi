@@ -1,0 +1,18 @@
+configuration {
+theme: "DarkBlue";
+width: 300;
+lines: 5;
+columns: 1;
+show-icons: false;
+font: "Dank Mono 12";
+fixed-num-lines: true;
+terminal: "kitty";
+disable-history: false;
+levenshtein-sort: true;
+matching: "fuzzy";
+hide-scrollbar: true;
+fullscreen: false;
+
+fake-transparency: true;
+click-to-exit: true;
+}

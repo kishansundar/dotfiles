@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-center '/home/kishan/Tresorit/backgrounds/wallhaven-e7711w.jpg' '/home/kishan/Tresorit/backgrounds/wallhaven-28dgqx.png' 
