@@ -39,7 +39,7 @@ xset mouse 3 6 &
 
 wal -R &
 ##########################################
-bspc monitor Virtual1  -d  art code
+bspc monitor Virtual1  -d  art code media
 bspc monitor Virtual2  -d  social misc
 
 
@@ -54,7 +54,7 @@ bspc rule -a "Tor Browser"       state=floating center=true focus=on follow=on
 
 bspc rule -a "Org.gnome.Nautilus"             	  state=floating center=true focus=on follow=on border=off
 bspc rule -a "File-roller"       	      state=floating center=true follow=on
-bspc rule -a "mpv"       	      state=floating center=true focus=on follow=on
+bspc rule -a "mpv"       	      desktop="media" state=floating center=true focus=on follow=on
 bspc rule -a "feh"                	    state=floating follow=on
 bspc rule -a "alacritty"                state=pseudo_tiled follow=on
 # bspc rule -a "VSCodium"         	  	  desktop='code' focus=on follow=on
