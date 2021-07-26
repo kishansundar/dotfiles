@@ -25,6 +25,7 @@
 .cache/tracker/
 .cache/typescript/
 .cache/vmware/
+.cache/wal/schemes/
 .cache/wallpaper/
 .cargo/
 .config/1Password/
