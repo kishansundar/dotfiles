@@ -30,7 +30,7 @@ if [ -x /usr/bin/polybar ]; then
     bash $HOME/.config/polybar/launch.sh &
 fi
 
-feh --bg-center   /home/kishan/Tresorit/backgrounds/wallhaven-e7711w.jpg /home/kishan/Tresorit/backgrounds/wallhaven-28dgqx.png &
+feh --bg-center   /home/kishan/Tresorit/backgrounds/wallhaven-28dgqx.png /home/kishan/Tresorit/backgrounds/wallhaven-28dgqx.png &
 
 xrdb -load  ~/.cache/wal/colors.xresources &
 xsetroot -cursor_name left_ptr &
