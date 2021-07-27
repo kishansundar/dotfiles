@@ -87,7 +87,7 @@ bspc config history_aware_focus           true
 bspc config borderless_monocle    false
 bspc config gapless_monocle       false
 bspc config paddingless_monocle   false
-bspc config single_monocle        false
+bspc config single_monocle        true
 
 # bspc config normal_border_color   \#5e4f77
 # bspc config active_border_color   \#9e70a1

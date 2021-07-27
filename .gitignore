@@ -8,6 +8,7 @@
 .cache/dconf/
 .cache/epiphany/
 .cache/event-sound-cache.tdb.311eec275782ef15dcaaa7e360f2fd28.x86_64-pc-linux-gnu
+.cache/font-manager/
 .cache/fontconfig/
 .cache/fwupd-client/
 .cache/google-chrome/
@@ -31,14 +32,18 @@
 .config/1Password/
 .config/BraveSoftware/
 .config/Code/
-.config/gnome-control-center/
-.config/gnome-initial-setup-done
 .config/QtProject.conf
 .config/TabNine/
 .config/Unreal\ Engine/
 .config/calibre/
 .config/chromium/
 .config/dconf/
+.config/enchant/
+.config/evolution/
+.config/font-manager/
+.config/gedit/
+.config/gnome-control-center/
+.config/gnome-initial-setup-done
 .config/google-chrome-beta/
 .config/google-chrome-unstable/
 .config/google-chrome/
@@ -46,12 +51,13 @@
 .config/iterm2
 .config/microsoft-edge-dev/
 .config/mimeapps.list
-.config/nautilus/
 .config/mpv/shaders/cache/
+.config/nautilus/
 .config/pop-shell/
 .config/pulse/
 .config/qBittorrent/
 .config/torbrowser/
+.config/touchegg/
 .config/vivaldi-snapshot/
 .config/vivaldi/
 .cups/
