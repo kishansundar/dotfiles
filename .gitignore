@@ -21,6 +21,7 @@
 .cache/pop-app-folders
 .cache/pop-flatpak-repos
 .cache/rofi-3.runcache
+.cache/starship
 .cache/thumbnails/
 .cache/torbrowser/
 .cache/tracker/
