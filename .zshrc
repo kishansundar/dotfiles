@@ -1,7 +1,3 @@
-eval "$(starship init zsh)"
-
-
-
 #path
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/bin:$PATH"
@@ -11,14 +7,14 @@ export PATH="/usr/local/bin:$PATH"
 
 #zsh
 
-fpath=(~/.zsh/zsh-completions/src $fpath)
-rm -f ~/.zcompdump; 
-autoload -Uz compinit
-compinit
+# fpath=(~/.zsh/zsh-completions/src $fpath)
+# rm -f ~/.zcompdump; 
+# autoload -Uz compinit
+# compinit
 
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
+[[ -s $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh ]] && source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+[[ -s $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]] && source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+[[ -s $HOME/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh ]] && source ~/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 
 HISTFILE=~/.histfile
@@ -36,3 +32,6 @@ setopt INC_APPEND_HISTORY
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
+
+
+eval "$(starship init zsh)"
