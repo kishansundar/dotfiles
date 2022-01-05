@@ -6,3 +6,5 @@
 	excludesfile = /Users/kishan/.gitignore_global
 [commit]
 	template = /Users/kishan/.stCommitMsg
+[init]
+	defaultBranch = main
