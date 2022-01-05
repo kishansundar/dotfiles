@@ -8,3 +8,5 @@
 	template = /Users/kishan/.stCommitMsg
 [init]
 	defaultBranch = main
+[pull]
+	rebase = false
