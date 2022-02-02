@@ -77,6 +77,7 @@
 .subversion/
 .sudo_as_admin_successful
 .themes/
+.terminfo/
 .viminfo
 .vscode-server/
 .vscode/
