@@ -1,5 +1,6 @@
 .DS_Store
 .Trash/
+.android/
 .bash_history
 .bash_logout
 .bashrc
@@ -76,8 +77,9 @@
 .ssh/
 .subversion/
 .sudo_as_admin_successful
-.themes/
+.swiftpm/
 .terminfo/
+.themes/
 .viminfo
 .vscode-server/
 .vscode/
@@ -98,4 +100,3 @@ Pictures/
 Tresorit/
 Tresors/
 scripts/
-.android/
