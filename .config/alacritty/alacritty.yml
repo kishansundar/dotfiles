@@ -66,7 +66,7 @@ scrolling:
   #
   # The `faux_multiplier` setting controls the number of lines the terminal
   # should scroll when the alternate screen buffer is active. This is used
-  # to allow mouse scrolling for applications like `man`.
+  # to allow mouse scrolling for applications like `man`.+
   #
   # Specifying `0` will disable faux scrolling.
   faux_multiplier: 3
