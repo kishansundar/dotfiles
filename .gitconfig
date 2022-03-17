@@ -10,3 +10,7 @@
 	defaultBranch = main
 [pull]
 	rebase = false
+[status]
+	submoduleSummary = true
+[diff]
+	submodule = log
