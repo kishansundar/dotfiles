@@ -13,6 +13,7 @@
 .cache/font-manager/
 .cache/fontconfig/
 .cache/fwupd-client/
+.cache/gnome-desktop-thumbnailer/
 .cache/google-chrome/
 .cache/gstreamer-1.0/
 .cache/ibus/
@@ -64,6 +65,7 @@
 .config/pulse/
 .config/qBittorrent/
 .config/torbrowser/
+.config/totem/
 .config/touchegg/
 .config/user-dirs.dirs
 .config/user-dirs.locale
@@ -71,6 +73,7 @@
 .config/vivaldi/
 .cups/
 .filebot/
+.gnupg/
 .haxelib
 .histfile
 .local/
