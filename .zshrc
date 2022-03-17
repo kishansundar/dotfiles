@@ -26,7 +26,7 @@ setopt INC_APPEND_HISTORY
 [[ -s ~/.aliases ]] && source ~/.aliases
 
 #z
-. $HOME/.zsh/z/z.sh
+#. $HOME/.zsh/z/z.sh
 
 #nvm
 export NVM_DIR="$HOME/.nvm"
