@@ -62,6 +62,9 @@
 .config/touchegg/
 .config/vivaldi-snapshot/
 .config/vivaldi/
+.config/gtk-3.0/bookmarks
+.config/user-dirs.dirs
+.config/user-dirs.locale
 .cups/
 .filebot/
 .haxelib
