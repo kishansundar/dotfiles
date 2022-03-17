@@ -9,6 +9,7 @@
 .cache/dconf/
 .cache/epiphany/
 .cache/event-sound-cache.tdb.311eec275782ef15dcaaa7e360f2fd28.x86_64-pc-linux-gnu
+.cache/event-sound-cache.tdb.8c589ea2da0ec6caee25b04f6231eca9.x86_64-pc-linux-gnu
 .cache/font-manager/
 .cache/fontconfig/
 .cache/fwupd-client/
@@ -19,6 +20,7 @@
 .cache/mesa_shader_cache/
 .cache/mozilla/
 .cache/nix/
+.cache/nvidia/
 .cache/pop-app-folders
 .cache/pop-flatpak-repos
 .cache/rofi-3.runcache
@@ -26,6 +28,7 @@
 .cache/thumbnails/
 .cache/torbrowser/
 .cache/tracker/
+.cache/tracker3/
 .cache/typescript/
 .cache/vmware/
 .cache/wal/schemes/
@@ -49,10 +52,12 @@
 .config/google-chrome-beta/
 .config/google-chrome-unstable/
 .config/google-chrome/
+.config/gtk-3.0/bookmarks/
 .config/ibus/
 .config/iterm2
 .config/microsoft-edge-dev/
 .config/mimeapps.list
+.config/monitors.xml
 .config/mpv/shaders/cache/
 .config/nautilus/
 .config/pop-shell/
@@ -60,11 +65,10 @@
 .config/qBittorrent/
 .config/torbrowser/
 .config/touchegg/
-.config/vivaldi-snapshot/
-.config/vivaldi/
-.config/gtk-3.0/bookmarks
 .config/user-dirs.dirs
 .config/user-dirs.locale
+.config/vivaldi-snapshot/
+.config/vivaldi/
 .cups/
 .filebot/
 .haxelib
@@ -83,7 +87,9 @@
 .swiftpm/
 .terminfo/
 .themes/
+.thumbnails
 .viminfo
+.vscode-server-server/
 .vscode-server/
 .vscode/
 .vsts/
@@ -91,7 +97,9 @@
 .z
 .zcompdump
 .zsh_history
+.zshenv
 Applications/
+BlenderProject
 Desktop/
 Developer/
 Documents/
@@ -103,6 +111,3 @@ Pictures/
 Tresorit/
 Tresors/
 scripts/
-BlenderProject
-.thumbnails
-.vscode-server-server/
