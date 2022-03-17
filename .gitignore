@@ -114,3 +114,6 @@ Pictures/
 Tresorit/
 Tresors/
 scripts/
+.cache/yelp/
+.config/yelp/
+.nvidia-settings-rc
