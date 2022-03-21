@@ -117,3 +117,6 @@ scripts/
 .cache/yelp/
 .config/yelp/
 .nvidia-settings-rc
+.config/GitKraken/
+
+.gitkraken/
