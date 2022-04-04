@@ -118,5 +118,5 @@ scripts/
 .config/yelp/
 .nvidia-settings-rc
 .config/GitKraken/
-
+.config/raycast/
 .gitkraken/
