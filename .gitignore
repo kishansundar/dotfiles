@@ -121,3 +121,4 @@ scripts/
 .config/GitKraken/
 .config/raycast/
 .gitkraken/
+.volta
