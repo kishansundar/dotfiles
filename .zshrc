@@ -1,8 +1,5 @@
-export VOLTA_HOME="$HOME/.volta"
-#path
-export PATH="/usr/local/sbin:$PATH"
-export PATH="/usr/local/bin:$PATH"
-export PATH="$VOLTA_HOME/bin:$PATH"
+export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
+
 
 #rust cargo
 [[ -s $HOME/.cargo/env ]] && source $HOME/.cargo/env
@@ -30,6 +27,8 @@ setopt INC_APPEND_HISTORY
 #z
 [[ -s ~/.zsh/z/z.sh ]] && . $HOME/.zsh/z/z.sh
 
-
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 eval "$(starship init zsh)"

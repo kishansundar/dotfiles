@@ -13,3 +13,6 @@
 [submodule ".zsh/z"]
 	path = .zsh/z
 	url = https://github.com/rupa/z.git
+[submodule "/Users/kishan/.nvim"]
+	path = /Users/kishan/.nvim
+	url = https://github.com/nvm-sh/nvm.git

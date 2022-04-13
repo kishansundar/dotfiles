@@ -1,5 +1,3 @@
-.DS_Store
-.Trash/
 .android/
 .bash_history
 .bash_logout
@@ -34,10 +32,12 @@
 .cache/vmware/
 .cache/wal/schemes/
 .cache/wallpaper/
+.cache/yelp/
 .cargo/
 .config/1Password/
 .config/BraveSoftware/
 .config/Code/
+.config/GitKraken/
 .config/QtProject.conf
 .config/TabNine/
 .config/Unreal\ Engine/
@@ -46,6 +46,7 @@
 .config/dconf/
 .config/enchant/
 .config/evolution/
+.config/exercism/
 .config/font-manager/
 .config/gedit/
 .config/gnome-control-center/
@@ -64,6 +65,7 @@
 .config/pop-shell/
 .config/pulse/
 .config/qBittorrent/
+.config/raycast/
 .config/torbrowser/
 .config/totem/
 .config/touchegg/
@@ -71,9 +73,10 @@
 .config/user-dirs.locale
 .config/vivaldi-snapshot/
 .config/vivaldi/
-.config/exercism/
+.config/yelp/
 .cups/
 .filebot/
+.gitkraken/
 .gnupg/
 .haxelib
 .histfile
@@ -82,6 +85,7 @@
 .mozilla/
 .npm/
 .nuget/
+.nvidia-settings-rc
 .pki/
 .profile
 .rustup/
@@ -93,6 +97,7 @@
 .themes/
 .thumbnails
 .viminfo
+.volta
 .vscode-server-server/
 .vscode-server/
 .vscode/
@@ -115,10 +120,3 @@ Pictures/
 Tresorit/
 Tresors/
 scripts/
-.cache/yelp/
-.config/yelp/
-.nvidia-settings-rc
-.config/GitKraken/
-.config/raycast/
-.gitkraken/
-.volta
