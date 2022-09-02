@@ -13,6 +13,6 @@
 [submodule ".zsh/z"]
 	path = .zsh/z
 	url = https://github.com/rupa/z.git
-[submodule "/Users/kishan/.nvm"]
-	path = /Users/kishan/.nvm
+[submodule ".nvm"]
+	path = .nvm
 	url = https://github.com/nvm-sh/nvm.git
