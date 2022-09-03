@@ -111,3 +111,5 @@ scripts/
 .xinputrc
 .xsession-errors
 .xsession-errors.old
+.config/plank/
+.config/xed/
