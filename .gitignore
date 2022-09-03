@@ -113,3 +113,6 @@ scripts/
 .xsession-errors.old
 .config/plank/
 .config/xed/
+.config/blender/
+.config/sticky/
+.config/warpinator/
