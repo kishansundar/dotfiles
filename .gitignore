@@ -1,3 +1,8 @@
+.bash_profile
+.config/.gsd-keyboard.settings-ported
+.config/dleyna-renderer-service.conf
+.config/gtk-4.0/
+.config/monitors.xml~
 .android/
 .bash_history
 .bash_logout
