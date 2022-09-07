@@ -125,3 +125,4 @@ scripts/
 .config/blender/
 .config/sticky/
 .config/warpinator/
+.config/nordvpn/nordvpn.conf
