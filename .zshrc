@@ -6,10 +6,10 @@ export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
 
 #zsh
 
-# fpath=(~/.zsh/zsh-completions/src $fpath)
-# rm -f ~/.zcompdump; 
-# autoload -Uz compinit
-# compinit
+ fpath=(~/.zsh/zsh-completions/src $fpath)
+ rm -f ~/.zcompdump; 
+ autoload -Uz compinit
+ compinit
 
 [[ -s $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh ]] && source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 [[ -s $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]] && source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -32,3 +32,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 eval "$(starship init zsh)"
+fpath+=${ZDOTDIR:-~}/.zsh_functions
