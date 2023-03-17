@@ -17,8 +17,8 @@ window:
   # Window dimensions in character columns and lines
   # (changes require restart)
   dimensions:
-    columns: 90
-    lines: 30
+    columns: 120
+    lines: 40
 
   opacity: 0.8
 
@@ -98,7 +98,7 @@ font:
     style: Italic
 
   # Point size of the font
-  size: 13.0
+  size: 15.0
 
   # Offset is the extra space around each character. offset.y can be thought of
   # as modifying the linespacing, and offset.x as modifying the letter spacing.
@@ -178,7 +178,7 @@ selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
 
   # When set to `true`, selected text will be copied to the primary clipboard.
-  save_to_clipboard: false
+  save_to_clipboard: true
 
 # Allow terminal applications to change Alacritty's window title.
 dynamic_title: true
