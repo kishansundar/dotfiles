@@ -8,7 +8,7 @@
 .config/gtk-4.0/
 .config/monitors.xml~
 .android/
-anaconda3/
+.anaconda/
 .bash_history
 .bash_logout
 .bashrc
